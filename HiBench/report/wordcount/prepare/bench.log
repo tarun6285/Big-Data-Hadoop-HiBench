@@ -1,0 +1,60 @@
+19/09/23 17:11:05 INFO client.RMProxy: Connecting to ResourceManager at master_hostname/128.110.153.96:8032
+Running 8 maps.
+Job started: Mon Sep 23 17:11:06 MDT 2019
+19/09/23 17:11:06 INFO client.RMProxy: Connecting to ResourceManager at master_hostname/128.110.153.96:8032
+19/09/23 17:11:07 INFO mapreduce.JobSubmitter: number of splits:8
+19/09/23 17:11:07 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1569279589137_0002
+19/09/23 17:11:07 INFO impl.YarnClientImpl: Submitted application application_1569279589137_0002
+19/09/23 17:11:07 INFO mapreduce.Job: The url to track the job: http://master_hostname:8088/proxy/application_1569279589137_0002/
+19/09/23 17:11:07 INFO mapreduce.Job: Running job: job_1569279589137_0002
+19/09/23 17:11:14 INFO mapreduce.Job: Job job_1569279589137_0002 running in uber mode : false
+19/09/23 17:11:14 INFO mapreduce.Job:  map 0% reduce 0%
+19/09/23 17:11:18 INFO mapreduce.Job:  map 13% reduce 0%
+19/09/23 17:11:19 INFO mapreduce.Job:  map 25% reduce 0%
+19/09/23 17:11:20 INFO mapreduce.Job:  map 38% reduce 0%
+19/09/23 17:11:22 INFO mapreduce.Job:  map 50% reduce 0%
+19/09/23 17:11:23 INFO mapreduce.Job:  map 75% reduce 0%
+19/09/23 17:11:24 INFO mapreduce.Job:  map 100% reduce 0%
+19/09/23 17:11:25 INFO mapreduce.Job: Job job_1569279589137_0002 completed successfully
+19/09/23 17:11:25 INFO mapreduce.Job: Counters: 33
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=942344
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=960
+		HDFS: Number of bytes written=37043
+		HDFS: Number of read operations=32
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=16
+	Job Counters
+		Killed map tasks=1
+		Launched map tasks=8
+		Other local map tasks=8
+		Total time spent by all maps in occupied slots (ms)=22059
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=22059
+		Total vcore-milliseconds taken by all map tasks=22059
+		Total megabyte-milliseconds taken by all map tasks=22588416
+	Map-Reduce Framework
+		Map input records=8
+		Map output records=60
+		Input split bytes=960
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=467
+		CPU time spent (ms)=7610
+		Physical memory (bytes) snapshot=1332019200
+		Virtual memory (bytes) snapshot=16111710208
+		Total committed heap usage (bytes)=1029177344
+	org.apache.hadoop.examples.RandomTextWriter$Counters
+		BYTES_WRITTEN=35532
+		RECORDS_WRITTEN=60
+	File Input Format Counters
+		Bytes Read=0
+	File Output Format Counters
+		Bytes Written=37043
+Job ended: Mon Sep 23 17:11:25 MDT 2019
+The job took 18 seconds.

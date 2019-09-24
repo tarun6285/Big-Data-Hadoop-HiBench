@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<configuration>
+  <property>
+    <name>yarn.resourcemanager.hostname</name>
+    <value>master-hostname</value>
+  </property>
+  <property>
+    <name>yarn.resourcemanager.scheduler.class</name>
+    <value>org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.FairScheduler</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.fair.allocation.file</name>
+    <value>/users/F19_TIP/hadoop/etc/hadoop/fair-scheduler.xml</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.resource.cpu-vcores</name>
+    <value>32</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.resource.memory-mb</name>
+    <value>65536</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.aux-services</name>
+    <value>mapreduce_shuffle</value>
+  </property>
+  <property>
+	  <name>hibench.slaves.hostnames</name>
+	  <value>slave-host</value>
+  </property>
+  <property>
+	  <name>hibench.masters.hostnames</name>
+	  <value>master-host</value>
+  </property>
+</configuration>
